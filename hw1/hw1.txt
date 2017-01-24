@@ -1,0 +1,52 @@
+Rohan Shastri
+rshastri@usc.edu
+CSCI 104L 
+
+Problem 1 (Course Policies)
+
+Part a: 
+
+1 and 4 - looking up relevant info online and asking the course staff for help is acceptable behavior. None of the other options are acceptable.
+
+Part b:
+
+2 through 5 - emacs, eclipse, sublime, and MS VS are recommended for writing code, not notepad or gedit.
+
+Part c:
+
+2. Each student has 4 late days of which only 1 can be used per HW.
+
+Part d:
+
+2. Complete the homework submission form.
+
+
+
+
+Problem 2 (Git)
+
+Part a:
+
+1 and 3 - Git Bash (Windows) and Terminal (Mac or Linux) are the git interfaces supported in this course.
+
+Part b:
+
+1. git status - this command moves untracked files and makes them staged for commit
+
+2. git log -3
+
+Part c:
+
+Nothing. Every commit command has to have a message -m as a part of it otherwise nothing will be committed.
+
+
+
+Problem 4 (Recursion)
+
+When func1(mat, 3, 4) is called, through a combination of recursive and func2 calls, the elements of the first column of the matrix are modified. Here is a PDF of my call tree diagram: https://www.dropbox.com/s/2vxletcbay78cll/hw1%20q4%20call%20tree.pdf?dl=0
+
+Each time func1 is called after the first call in the main function, func2 is called right after and adds the values up from one entire row in the matrix, and then places that total value in the first column of the affiliated row. 
+
+
+
+

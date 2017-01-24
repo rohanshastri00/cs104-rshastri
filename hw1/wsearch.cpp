@@ -75,8 +75,9 @@ bool findWordHelper(
 // Do not change
 void printSolution(const string& targetWord, const Location& start, string direction)
 {
-  cout << targetWord << " starts at (row,col) = (" << start.row << "," << start.col
-       << ") and proceeds " << direction << "." << endl;
+  cout << targetWord << " starts at (row,col) = (" 
+    << start.row << "," << start.col 
+      << ") and proceeds " << direction << "." << endl;
 }
 
 // Do not change
@@ -138,13 +139,14 @@ bool findWordHelper(const vector<vector<char> >& grid,
 		 string word,
 		 unsigned int currWordIndex)
 {
+    unsigned int zero = 0;
     //if it exceeds bottom side
     if (currLoc.row >= grid.size())
     {
       return false;
     }
     //if it exceeds top side
-    else if (currLoc.row < 0)
+    else if (currLoc.row < zero)
     {
       return false;
     }
@@ -154,7 +156,7 @@ bool findWordHelper(const vector<vector<char> >& grid,
       return false;
     }
     //if it exceeds left  
-    else if (currLoc.col < 0)
+    else if (currLoc.col < zero)
     {
       return false;
     }

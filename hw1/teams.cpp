@@ -32,8 +32,8 @@ void printSolution(const string* team1,
 }
 
 
-void generateCombinations (string* namePool, string* team1,  string* team2, 
-  int team1size, int team2size, int namePoolIndex, int teamSize)
+void generateCombinations (string* namePool, string* team1, 
+  string* team2, int team1size, int team2size, int namePoolIndex, int teamSize)
 {
 
   //if both teams are full, print solution
@@ -51,8 +51,8 @@ void generateCombinations (string* namePool, string* team1,  string* team2,
 
       //add player 1, recurse everyone else
       team1[team1size] = namePool[namePoolIndex];
-      generateCombinations(namePool, team1, team2, team1size+1, 
-        team2size, namePoolIndex+1, teamSize);
+      generateCombinations(namePool, team1, team2, 
+        team1size+1, team2size, namePoolIndex+1, teamSize);
 
     }
     //if team2 isnt full
@@ -60,8 +60,8 @@ void generateCombinations (string* namePool, string* team1,  string* team2,
     {
       //add player 2, recurse everyone else
       team2[team2size] = namePool[namePoolIndex];
-      generateCombinations(namePool, team1, team2, team1size, 
-        team2size+1, namePoolIndex+1, teamSize);
+      generateCombinations(namePool, team1, team2, 
+        team1size, team2size+1, namePoolIndex+1, teamSize);
     }
   }
 

@@ -1,0 +1,44 @@
+Rohan Shastri
+CS104
+Hmwk 2
+
+Problem 1 (Git questions)
+
+a. The status of README.md would be unmodified, as the file was not created instantly, it was pulled from git.
+
+b. The status of README.md would be modified, because after creating the file fun_problem.txt that is untracked, and then once you append the README.md it becomes modified. fun_problem.txt has a status of untracked, as no one has called git add to start tracking the file.
+
+c. README.md would now become have a staged status, while fun_problem.txt would also now have the status of staged - no changes have been made, but git add has been called on both files.
+
+d. Both files would have a status of modified, as once git commit is called the files go back to being unmodified, and then the two changes make them modified. It is also important to note that after they have been committed, and changes are made later, both files then become staged and then unstaged - git add must be called again to make both files only staged. 
+
+e. README.md is now staged, while fun_problem.txt is also now unmodified (instead of staged) because the previous edits made in part d are now removed, putting it back in the repo.
+
+f. README.md will have a status of modified - the version of the file after part e has been changed. 
+
+
+
+Problem 3 (Runtime Analysis)
+
+a. The first for loop goes through n-1 iterations, while the second starts at n(n-1) and progresses down to 0. Hence the actual runtime is (n-1) * (n/2) = O(n^2 - n) which simplifies to O(n^2).
+
+b. First for loop goes through n-2 iterations, while the second goes through n-1 and the third goes through log base 2 n iterations, as the third loop effectively squares itself. So the final runtime bound is O(n^2 * log base 2 n).
+
+c. This function is recursive, meaning we analyze the runtime of the recursive calls. Since both calls subtract 2 from n for every call, you end up with n/2 calls for each call, meaning n/2 + n/2 leaves us with a runtime complexity of O(n).
+
+d. This code is comprised of two for loops and an if statement - the first for loop has a bound of n-1, while the if statement has a simplified bound of n as well. The last for loop has a bound of 3n-20 (number of iterations in the for loop summed up) but upon simplifying the polynomial you get, you will always end up with a bound of O(n^3). 
+
+Problem 4 (Abstract Data Types)
+
+1. A map containing album/playlist titles (string) which are linked to a list of songs (string) for each element in the map. 
+
+2. A list of steps (string) with each element containing a string with the step for the recipe. Could also pair with a map of ingredients that links to the amount needed per ingredient (double or string) for the specific recipe.
+
+3. A map/dictionary with names of all file types (string). When a file type is found in the map, links to a list/set of possible programs (string) that can read said file. 
+
+4. A set containing names of all TV station IDs (string). If one was searching for the identifier for a specific TV station, a map of the TV station names (string) linked to the identification name (string) would suffice.  
+
+
+Problem 5
+
+

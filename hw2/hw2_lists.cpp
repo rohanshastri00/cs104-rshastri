@@ -98,19 +98,13 @@ double findAverage(Item* head)
 	//when you reach the end of the list;
 	if (head == NULL)
 	{
-		return 0;
+		return 0.0;
 	}	
 	else 
 	{
 		return (findAverageHelper(head, counter))/counter;
 
 	}
-
-	if (head == NULL)
-	{
-		return 0.0;
-	}
-
 }
 
 

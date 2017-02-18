@@ -19,7 +19,7 @@ scheduling: scheduling.cpp queueint.o
 queueint.o: queueint.h queueint.cpp
 	$(CXX) $(CPPFLAGS) -c queueint.cpp -o queueint.o
 
-llisttest: llisttest.cpp llistint.o
+listtest: listtest.cpp llistint.o
 	$(CXX) $(CPPFLAGS) $^ $(GTEST) -o $@
 
 

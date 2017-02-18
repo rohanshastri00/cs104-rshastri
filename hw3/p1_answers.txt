@@ -1,0 +1,6 @@
+Rohan Shastri
+rshastri@usc.edu
+
+CS104 Homework 3 Problem 1 - Amortized Analysis
+
+The worst case runtime specifically for the else if statement is n^2, as they are double nested for loops, n * n = n^2. But the probability of this if statement being called is sqrt(n), based on x mod sqrt(n). But amortized runtime considers the actual runtime over the number of iterations. The rest of the if statements and what not are constant time, so in this case, the number of iterations is from n to 0, so our final runtime is (sqrt(n) * n^2 + n)/n = theta(n^1.5).

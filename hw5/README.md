@@ -8,7 +8,7 @@ Graphical user interface in order
 to search, add to cart, and purchase
 items from a database.
 
-Enter 
+Enter
 qmake -project
 qmake
 make

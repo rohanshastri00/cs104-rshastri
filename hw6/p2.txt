@@ -1,0 +1,17 @@
+Rohan Shastri
+April 3rd, 2017
+
+HW6
+
+Problem 2
+
+Part a:
+
+[0, 6, 2, 26, 24, 22, 20, 48, 46, 44] is valid.
+
+[0, 2, 16, 4, 10, 18, 5, 28, 26] is not valid. 5 is out of place, as it’s parent is greater than itself (16>5), while it should be less than its children based on trickleUp.
+
+[0, 2, 16, 4, 10, 18, 26, 28, 5] is valid.
+
+
+Part b: 

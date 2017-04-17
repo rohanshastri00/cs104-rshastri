@@ -145,6 +145,11 @@ int main(int argc, char *argv[])
         return 0;
     }
     ifstream ifile(argv[1]);
+    //checking if bad filename
+    if (ifile.fail()) {
+        cout << "Couldn't open file" << endl;
+        return 1;
+    }
     stringstream ss;
     string line;
     ofstream ofile(argv[2]);

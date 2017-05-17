@@ -4,7 +4,7 @@
 
 #March 24th, 2017
 
-#AMAZON GUI
+#AMAZON HW4 GUI WRAP
 
 Graphical user interface in order
 to search, add to cart, and purchase

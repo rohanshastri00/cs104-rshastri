@@ -2,7 +2,7 @@
 #CSCI 104 HW7
 #April 17th 2017 
 
-
+(All templated)
 #bst.h
 
 Binary Search Tree class (unbalanced). 

@@ -1,5 +1,6 @@
 #hw2_lists.cpp
 
+(templated)
 Takes two lines of numbers, creates two 
 linked lists and will concatenate them,
 removes even numbers from the resulting

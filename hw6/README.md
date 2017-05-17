@@ -2,7 +2,7 @@
 #HW6
 
 #puzzle.cpp
-
+(A* algorithm)
 compile make puzzle 
 
 4 arguments necessary to run:
@@ -21,7 +21,8 @@ manhattan distance
 
 
 #heap.h
-
+(min heap implementation for any
+size m)
 heap.cpp included in hw6 folder
 uncomment heap line in 
 makefile to compile

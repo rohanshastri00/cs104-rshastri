@@ -4,7 +4,7 @@
 
 #April 28th, 2017
 
-#AMAZON GUI
+#AMAZON GUI (hw5 + additions)
 
 Graphical user interface in order
 to search, add to cart, and purchase
@@ -33,7 +33,7 @@ created for amazon
 #main_window.cpp
 
 Wraps mydatastore instance in GUI, once
-running the program is intuitive 
+running the program is intuitive a
 
 
 

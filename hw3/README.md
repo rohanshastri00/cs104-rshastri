@@ -7,6 +7,7 @@ copy constructors.
 
 #queueint.cpp
 
+(Integer linked list implemented as a queue)
 QueueInt uses most of the llistint
 functions in the queueint.cpp. 
 Enter make scheduling to test queueint, most

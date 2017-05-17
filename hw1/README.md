@@ -1,6 +1,6 @@
 #wsearch.cpp
 
-Searches for a word in a given grid of letters.
+Recursively searches for a word in a given grid of letters.
 
 To run program, you will need (as command line arguments): 
 1. valid grid input

@@ -4,6 +4,7 @@
 
 #amazon.cpp
 
+(Makeshift Amazon program)
 Provides list of commands in order
 to search, add to cart, and purchase
 items from a database.
